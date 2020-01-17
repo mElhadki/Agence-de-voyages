@@ -1,0 +1,348 @@
+.NJE_icon_menu , .NJE_icon_menu1
+{
+    position: absolute;
+    float: right;
+    right: 40px;
+    top: 40px;
+    color: white;
+    display: none ;
+}
+.NJE_icon_menu i , .NJE_icon_menu1 i
+{
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color:#000;
+    color: #fff;
+}
+footer p {
+    margin-top: 20px;
+}
+@media (min-width:1360px){
+    .nav
+    {
+        display: inline !important;
+    }
+    .NJE_icon_menu , .NJE_icon_menu1
+    {
+        display: none !important;
+    }
+}
+
+
+body
+{
+    margin: 0px;
+}
+.NJE_image1
+{
+    margin-top: 350px;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.NJE_services
+{
+    background-color: #E2EAF0;
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    top: -100px;
+}
+.NJE_div_image
+{
+    float: left;
+    width: 30%;
+    height:100%;
+    background-image: url(image/1.jpg);
+    background-size: cover;
+    margin-left: 10%;
+}
+.NJE_text , .NJE_images 
+{
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    width: 60%;
+}
+.NJE_button_back,.NJE_button_next
+{
+    position: relative;
+    top: 450px;
+    float: right;
+    right: -53px;
+    cursor: pointer;
+}
+.NJE_text_p
+{
+    width: 650px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.NJE_images ul
+{
+    margin : 0px;
+    padding: 0px;
+}
+.NJE_next li
+{
+    display: inline;
+    margin-left: 3%;
+}
+.NJE_next img
+{
+    width: 11%;
+}
+@media (max-width:1250px)
+{
+    .NJE_image1
+    {
+        background-size: cover;
+        height: 1000px;
+    }
+    .NJE_services
+    {
+        height: 1000px;
+        margin: auto;
+        margin-top: -1050px;
+    }
+    .NJE_div_image
+    {
+        background-position: center;
+        width: 100%;
+        height:500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-left: 0%;
+    }
+    .NJE_button_back
+    {
+        top: 250px;
+        float: left;
+        left: 5%;
+    }
+    .NJE_button_next
+    {
+        top: 250px;
+        float: right;
+        right: 5%;
+    }
+    .NJE_services
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .NJE_images 
+    {
+        order: 1;
+        width: 100%;
+    }
+    .NJE_text
+    {
+        order: 2;
+        margin: auto;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .NJE_text_p
+    {
+        width: 70%;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+.NJE_ville
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+h1 span
+{
+    color: #FF6F00;
+}
+.NJE_hotels
+{
+    width: 100%;
+    height: 580px;
+    background-color: #E2EAF0;
+    margin-bottom: 50px;
+}
+.NJE_hotel
+{
+    background-color: white;
+    width: 20%;
+    height: 500px;
+    margin-left: 4%;
+    position: relative;
+    margin-top: 40px;
+    float: left;
+}
+.NJE_hotel:hover
+{
+    animation: crescend 1s alternate infinite ease-in;
+}
+@keyframes crescend {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+.NJE_hotel .NJE_hotel_img
+{
+    width: 100%;
+    height: 170px;
+}
+.NJE_hotel .NJE_hotel_nom
+{
+    margin-bottom: 40px;
+}
+.NJE_hotel_nom
+{
+    font-size: 17px;
+}
+.NJE_hotel .NJE_hotel_nom , .NJE_prix , .NJE_hotel .NJE_Stars , .NJE_hotel .NJE_location 
+{
+    margin-left: 6%;
+}
+.NJE_Stars1 , .NJE_Stars , .NJE_location
+{
+    width: 14px;
+    height: 15px;
+}
+h4,p
+{
+    display: inline;
+}
+hr
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.NJE_prix
+{
+    margin-top: 50px;
+    margin-right: 6%;
+}
+.NJE_partir 
+{
+    width: 65%;
+    float: left;
+}
+.NJE_promotion
+{
+    width: 35%;
+    float: left;
+}
+.NJE_partir h3 
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 30px;
+}
+h3 span
+{
+    font-size: 20px;
+}
+.NJE_promotion
+{
+    text-align: right;
+}
+.NJE_text_decoration
+{
+    text-decoration: line-through;
+}
+.NJE_btn_profite
+{
+    background-color: #FF6F00;
+    margin-top: 130px;
+    width: 100%;
+    height: 50px;
+}
+.NJE_btn_hover
+{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+}
+.NJE_btn_hover:hover
+{
+    transform-style: flat;
+    background-color: #15508A;
+    cursor: pointer;
+}
+.NJE_hotel p
+{
+    font-weight: 100;
+    color: gray;
+}
+.NJE_btn_hover p
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+@media (max-width:1130px)
+{
+    .NJE_hotel
+    {
+        width: 41%;
+        margin-left: 6%;
+    }
+    .NJE_hotels
+    {
+        height: 1200px;
+    }
+    .NJE_ville h1
+    {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+@media (max-width:500px)
+{
+    
+    .NJE_hotel_nom ,.NJE_hotel p
+    {
+        font-size: 0.6em;
+    }
+    .NJE_partir h3 
+    {
+        font-size: 18px;
+    }
+    h3 span
+    {
+        font-size: 12px;
+    }
+}
+.NJE_title
+{
+    text-align: center;
+    font-size: 90px;
+}
+.NJE_title h5
+{
+    margin: 50px 0px;
+}
+.NJE_title1
+{
+    text-align: center;
+    font-size: 90px;
+}
+.NJE_title1 h5
+{
+    margin-top: 200px;
+    margin-bottom: -100px;
+}

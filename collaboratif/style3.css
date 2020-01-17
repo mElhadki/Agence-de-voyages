@@ -1,0 +1,330 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+    html{
+               scroll-behavior:smooth;
+           }
+body{
+     overflow-x: hidden;
+}
+header
+{
+    background-image: url(image/artem-kostenko-a6EzvPjXfBY-unsplash.png);
+    background-repeat: no-repeat;
+    font-family: 'Raleway',sans-serif;
+    height: 1000px;
+}
+.MAR-Logo
+{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    float: left;
+}
+
+.MAR-Info
+{
+    float: left;
+    color: #7B7469;
+    margin-left: 60px;
+}
+.MAR-Info img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+    transform: translate(0%, 40%);
+}
+.MAR-Info p
+{
+    display: inline;
+}
+.nav
+{
+    float: right;
+    margin-top: 35px;
+}
+ul
+{      
+    color: white;
+}
+a
+{
+    color: white;
+    text-decoration: none; 
+}
+.nav ul li 
+{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.MAR_header
+{
+    height: 250px;
+}
+.MAR-ContentPara
+{
+    color: white;
+    width: 650px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.MAR-ContentPara h1
+{
+    white-space: nowrap;
+  overflow: hidden;
+  width: 15em;
+  animation: type 2s steps(60, end); 
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.MAR-ContentPara h1:nth-child(2){
+  animation: type2 3s steps(60, end);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+.MAR-ContentPara p
+{
+    font-size: 25px;
+}
+.MAR-Icons {
+   
+    margin-top: 300px;
+}
+.MAR-Icons , .MAR-Icons1
+{
+    display: flex;
+    justify-content: center;
+}
+.MAR-Icons1
+{
+    margin: 40px
+}
+.MAR-Icons i , .MAR-Icons1 i
+{
+    font-size: 50px;
+    animation: crescendo 1s alternate infinite ease-in;
+}  
+.MAR-Icons i
+{
+    color: white;
+}
+.MAR-Icons1 i
+{
+    color: black;
+}
+.NJE_icon_menu , .NJE_icon_menu1
+{
+    position: absolute;
+    float: right;
+    right: 40px;
+    top: 40px;
+    color: white;
+    display: none ;
+}
+.NJE_icon_menu i , .NJE_icon_menu1 i
+{
+    font-size: 30px;
+}
+.MAR-ParaDes{
+                
+                text-align: center;
+                font-size: 20px;
+                margin-top: 60px;
+            }
+            .MAR-ParaDes h1{
+                letter-spacing: 0.1em; 
+            }
+            
+              .MAR-ParaDes p{
+                
+                  margin-top: 20px;
+                letter-spacing: 0.1em; 
+            }
+
+            
+            .MAR-Pictures {
+                text-align: center;
+               
+            }
+            .MAR-Pictures img{
+                
+                margin-top: 60px;
+                width: 80%;
+                height: 600px;
+               
+            }
+            
+            .MAR-ParaBody h1{
+                margin-top: 60px;
+                text-align: center;
+            }
+            .MAR-3Parties {
+                
+                margin-top: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .MAR-3Parties img {
+                
+                text-align: center;
+                
+            }
+            .MAR-Partie1{
+               text-align: center;
+            }
+@keyframes crescendo {
+    0%   {transform: scale(.5);}
+    100% {transform: scale(1);}
+}
+      
+        .MAR-ContenuImages{
+            
+            float: right;
+            display: flex;
+           margin-top: -70px;
+        }
+          
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color:#000;
+    color: #fff;
+}
+footer p {
+    margin-top: 20px;
+}
+@media (min-width:830px) and (max-width:1320px){
+    .MAR-Info
+    {      
+        display: none;
+    }
+    
+    .nav
+    {
+        display: inline !important;
+    }
+    .NJE_icon_menu , .NJE_icon_menu1
+    {
+        display: none !important;
+    }
+    
+}
+@media screen and (max-width:830px){
+    
+    header{
+        height: 700px;
+    }
+    .MAR-Info
+    {      
+        display: none;
+    }
+    .nav
+    {      
+        position: absolute;
+        float: right;
+        text-align: center;
+        top: -20px;
+        right: 0px;
+        height: 800px;
+        width: 50%;
+        border-bottom-left-radius: 2000px;
+        border-top-left-radius: 2000px;
+        border: 1px solid #777777;
+        transition: 0.5s, opacity 1s;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none ;
+    }
+    .nav ul
+    {
+        margin-top: 200px;
+        font-size: 35px;
+    }
+    .nav ul li 
+    {
+        display: block;
+    }
+    .NJE_icon_menu 
+    {
+        display: inline;
+    }
+    footer
+    {
+        height: 200px;
+        width: 100%;
+        padding-bottom: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .MAR-ContentPara h1
+    {
+        font-size: 60px;
+    }
+    .MAR-ContentPara p
+    {
+        font-size: 15px;
+    }
+    .MAR-ContentPara
+    {
+        width: 390px;
+
+}
+          .MAR-ContenuImages{
+              
+                  flex-direction: column;
+                  margin-top: 300px;
+                  float: none;
+                  
+              }
+  
+    
+    .MAR-3Parties{
+        display: block;
+        
+    }
+    .MAR-Partie1{
+        margin-top: 20px;
+    }
+    .MAR-Icons {
+   
+    margin-top: 140px;
+}
+}
+
+@media (max-width:500px)
+{
+    .MAR-Logo
+    {
+        width: 50%;
+        margin-left: 30px;
+    }
+    .MAR-ContentPara
+    {
+        color: white;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .MAR-ContentPara h1
+    {
+        font-size: 20px;
+    }
+    .MAR-ContentPara p
+    {
+        font-size: 15px;
+    }
+}

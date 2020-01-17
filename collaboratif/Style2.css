@@ -1,0 +1,112 @@
+ .MAR-OurTeam{
+                
+                margin-top: 60px;
+                display: flex;
+                justify-content: center;
+            }
+   
+            
+ div.polaroid {
+                
+               width: 20%;
+               background-color: white;
+               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+               margin-bottom: 25px;
+}
+
+.polaroid:hover{
+    
+                border: 3px solid #777;
+    
+                 }
+
+div.container {
+   
+                width: 5%;
+                text-align: center;
+                padding: 10px 20px;
+}
+            
+.B2{
+                
+                 display: block;
+                 margin : auto;
+                 margin-top: 60px;
+                 background-color:black;
+                 box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+                 color: white;
+                 font-size: 15px;
+                 padding: 13px; 
+                 border-radius: 20px;
+                 width: 15%;
+                 text-transform: uppercase;
+                 font-weight: 500;
+                 transition: all 0.3s ease 0s;
+}
+
+.B2:hover {
+                 background-color: white;
+                 box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+                 color:gray;
+                 transform: translateY(-7px);
+}
+            
+.MAR-HDR{
+                
+                display: flex;
+                flex-direction:column;
+                float: right;
+                
+            }
+            
+            
+.MAR-HDR h1{
+                
+                color: #2C4458; 
+                float: right; 
+                margin-top: 60px; 
+                font-size: 25px;
+            }
+            
+            .MAR-HDR p{
+                float: right;
+                text-align: left;
+                margin-top: 30px; 
+                font-size: 20px;
+            }
+ 
+@media screen and (max-width:830px){
+                
+                
+                div.polaroid {
+                    
+                     width: 40%;       
+                }
+             
+                .MAR-Pictures .img2{
+                    
+                   width: 30% !important;
+                   height: 300px;
+                }
+                .B2{
+                    
+                    width: 60%;
+                }
+                
+                .MAR-HDR{
+                    
+                    text-align: center;
+                }
+                
+                .MAR-HDR h1{
+                    
+                    font-size: 17px;
+                }
+                
+                .MAR-HDR p{ 
+                    font-size: 15px;
+                    text-align: left;
+                
+                }
+    }
+    
